@@ -1,0 +1,1 @@
+// Reserved for future typed service-worker registration. The public service worker is public/sw.js.
