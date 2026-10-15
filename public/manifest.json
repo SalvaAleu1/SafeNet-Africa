@@ -1,0 +1,10 @@
+{
+  "name": "SafeNet Africa",
+  "short_name": "SafeNet",
+  "description": "Practical digital safety guidance and support pathways.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fbfcfa",
+  "theme_color": "#102c2a",
+  "icons": []
+}
