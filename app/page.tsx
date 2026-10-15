@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 import {
   ShieldCheck, LockKeyhole, BookOpen, LifeBuoy, Search, ArrowUpRight,
   Menu, X, ChevronRight, CheckCircle2, Smartphone, Eye, HeartHandshake,
-  Fingerprint, MessageCircle, FileText, WifiOff, Volume2, Sun, ExternalLink,
+  Fingerprint, MessageCircle, FileText, WifiOff, Sun,
   ShieldAlert, KeyRound, Globe2, CircleHelp, Check, Copy, AlertTriangle
 } from "lucide-react";
 
@@ -175,7 +175,7 @@ export default function Home() {
 
       <section className="section support-section" id="get-support">
         <div className="container">
-          <div className="support-banner"><div className="support-art"><div className="support-orbit" /><div className="support-symbol"><LifeBuoy size={49} strokeWidth={1.4} /></div><span className="support-star star-a">✳</span><span className="support-star star-b">✦</span></div><div className="support-copy"><span className="section-kicker">YOU DON'T HAVE TO FIGURE IT OUT ALONE</span><h2>Finding support is a sign of strength.</h2><p>If something is happening to you, consider reaching out to a trusted person or a qualified service. You deserve to be treated with respect and care.</p><button className="button button-primary" onClick={() => setShowChecklist(true)}>Prepare my safety steps <ChevronRight size={17} /></button></div></div>
+          <div className="support-banner"><div className="support-art"><div className="support-orbit" /><div className="support-symbol"><LifeBuoy size={49} strokeWidth={1.4} /></div><span className="support-star star-a">✳</span><span className="support-star star-b">✦</span></div><div className="support-copy"><span className="section-kicker">YOU DON&apos;T HAVE TO FIGURE IT OUT ALONE</span><h2>Finding support is a sign of strength.</h2><p>If something is happening to you, consider reaching out to a trusted person or a qualified service. You deserve to be treated with respect and care.</p><button className="button button-primary" onClick={() => setShowChecklist(true)}>Prepare my safety steps <ChevronRight size={17} /></button></div></div>
           <div className="support-heading"><div><span className="section-kicker">PATHWAYS TO HELP</span><h2>Find the right kind of support</h2></div><p>These are support categories, not a verified directory of providers. We will publish named services only after checking their details and safe contact procedures.</p></div>
           <div className="support-types">{supportTypes.map(s => <div className="support-type" key={s.title}><span className="support-type-icon"><s.icon size={21} /></span><h3>{s.title}</h3><p>{s.desc}</p><span className="support-status"><CircleHelp size={14} /> Provider directory being verified</span></div>)}</div>
           <div className="safety-notice"><AlertTriangle size={20} /><div><strong>If you are in immediate danger</strong><p>Use a locally trusted emergency service or go to a safer place if you can do so safely. SafeNet Africa is an educational platform, not an emergency response service, and does not currently monitor reports.</p></div></div>
